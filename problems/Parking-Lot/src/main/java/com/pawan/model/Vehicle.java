@@ -1,0 +1,30 @@
+package com.pawan.model;
+
+/**
+ * @author $ {USER}
+ **/
+public class Vehicle {
+    private String vehicleId;
+    private VehicleType vehicleType;
+
+    private Vehicle(String vehicleId, VehicleType vehicleType) {
+        this.vehicleId = vehicleId;
+        this.vehicleType = vehicleType;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public String getVehicleId() {
+        return vehicleId;
+    }
+
+    public void setVehicleId(String vehicleId) {
+        this.vehicleId = vehicleId;
+    }
+}
