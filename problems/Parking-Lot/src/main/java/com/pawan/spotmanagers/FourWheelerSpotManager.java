@@ -9,7 +9,7 @@ import java.util.List;
  * @author $ {USER}
  **/
 public class FourWheelerSpotManager extends SpotManager{
-    FourWheelerSpotManager(List<ParkingSpot> spotList, ParkingStrategy parkingStrategy) {
+    public FourWheelerSpotManager(List<ParkingSpot> spotList, ParkingStrategy parkingStrategy) {
         super(spotList, parkingStrategy);
     }
 }

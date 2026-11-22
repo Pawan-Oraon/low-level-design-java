@@ -7,7 +7,7 @@ public class Vehicle {
     private String vehicleId;
     private VehicleType vehicleType;
 
-    private Vehicle(String vehicleId, VehicleType vehicleType) {
+    public Vehicle(String vehicleId, VehicleType vehicleType) {
         this.vehicleId = vehicleId;
         this.vehicleType = vehicleType;
     }

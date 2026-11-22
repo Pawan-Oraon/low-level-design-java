@@ -15,7 +15,7 @@ public class ParkingLot {
     public ParkingBuilding parkingBuilding;
     public EntryGate entryGate;
     public ExitGate exitGate;
-    ParkingLot(ParkingBuilding parkingBuilding, EntryGate entryGate, ExitGate exitGate) {
+    public ParkingLot(ParkingBuilding parkingBuilding, EntryGate entryGate, ExitGate exitGate) {
         this.parkingBuilding = parkingBuilding;
         this.entryGate = entryGate;
         this.exitGate = exitGate;

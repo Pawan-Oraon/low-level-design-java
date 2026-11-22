@@ -13,7 +13,7 @@ import java.util.Map;
 public class ParkingLevel {
     String levelNo;
     Map<VehicleType, SpotManager> managers;
-    ParkingLevel(String levelNo, Map<VehicleType, SpotManager> managers) {
+    public ParkingLevel(String levelNo, Map<VehicleType, SpotManager> managers) {
         this.levelNo = levelNo;
         this.managers = managers;
     }

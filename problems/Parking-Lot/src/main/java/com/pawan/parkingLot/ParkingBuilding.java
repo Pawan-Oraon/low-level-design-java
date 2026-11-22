@@ -12,7 +12,7 @@ import java.util.List;
 public class ParkingBuilding {
     List<ParkingLevel> levels;
 
-    ParkingBuilding(List<ParkingLevel> levels) {
+    public ParkingBuilding(List<ParkingLevel> levels) {
         this.levels = levels;
     }
 

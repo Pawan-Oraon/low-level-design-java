@@ -9,7 +9,7 @@ import com.pawan.pricing.CostComputation;
  **/
 public class ExitGate {
     CostComputation costComputation;
-    ExitGate(CostComputation costComputation) {
+    public ExitGate(CostComputation costComputation) {
         this.costComputation = costComputation;
     }
     public void exitVehicle(ParkingBuilding parkingBuilding, Ticket ticket, PaymentType paymentType) {
@@ -17,7 +17,10 @@ public class ExitGate {
         boolean isPaymentSuccess = paymentType.pay(amount);
         if (isPaymentSuccess) {
             parkingBuilding.release(ticket);
+            System.out.println("Vehicle exit successful, Gate opened");
+        } else {
+            System.out.println("payment was not successful");
         }
-        System.out.println("Vehicle exit successful, Gate opened");
+
     }
 }

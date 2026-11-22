@@ -6,7 +6,7 @@ package com.pawan.model;
 public class ParkingSpot {
     String spotId;
     boolean free;
-    ParkingSpot(String spotId) {
+    public ParkingSpot(String spotId) {
         this.spotId = spotId;
         this.free = true;
     }
